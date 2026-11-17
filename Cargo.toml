@@ -1,0 +1,15 @@
+[package]
+name = "fluidity-launcher"
+version = "0.1.0"
+edition = "2021"
+description = "Fluidity dynamic app-only search and ultra-lightweight local AI question router"
+
+[dependencies]
+iced = { version = "0.13", features = ["tokio"] }
+iced_layershell = "0.18"
+nucleo-matcher = "0.3"
+freedesktop-desktop-entry = "0.7"
+tokio = { version = "1", features = ["full"] }
+# Local 0.5B-1.5B inference engine (enable cuda or metal feature if targeting GPU)
+mistralrs = "0.7"
+dirs = "5"

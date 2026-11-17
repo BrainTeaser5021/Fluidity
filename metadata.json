@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Category": "Appearance",
+        "Description": "Dissolves closing windows downward like a puddle sinking into the background",
+        "Id": "kwin4_effect_fluidity_puddle",
+        "License": "GPL-3.0",
+        "Name": "Fluidity Puddle Close",
+        "Version": "0.1.0"
+    },
+    "X-KDE-ConfigModule": "kwin_effect_fluidity_puddle_config",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
